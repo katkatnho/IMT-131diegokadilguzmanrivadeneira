@@ -1,0 +1,13 @@
+[drwxrwxr-x]  .
+├── [-rw-rw-r--]  comandos.txt
+├── [drwxrwxr-x]  data
+│   ├── [-r--r--r--]  .COMUNICADO.txt
+│   └── [-r-xr-xr-x]  Instrucciones_Practica.pdf
+├── [drwxrwxr-x]  docs
+├── [-rw-rw-r--]  estructura.txt
+├── [drwxr-xr-x]  logs
+│   └── [-r--r--r--]  sistema.log
+└── [drwxrwxr-x]  src
+    └── [-rwx------]  check_engine.sh
+
+5 directories, 6 files
