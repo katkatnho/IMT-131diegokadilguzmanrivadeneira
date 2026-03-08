@@ -1,0 +1,30 @@
+  376  mkdir src docs data
+  377  ls
+  378  cat INSTRUCCIONES/
+  379  cat CONSIGNA/
+  380  tree -pa
+  381  tree -a
+  382  ls
+  383  mv .consigna/Instrucciones_Practica.pdf .consigna/.COMUNICADO.txt data/
+  384  tree -a
+  385  ls -a data/
+  386  ls
+  387  rm -rf .consigna INSTRUCCIONES CONSIGNA instrucciones.txt
+  388  ls
+  389  tree -a
+  390  exit
+  391  ls
+  392  cd laboratorio_linux/
+  393  ls
+  394  cd tareaLinux3/
+  395  tree -a
+  396  cd src
+  397  tree -a
+  398  nano check_engine.sh
+  399  cat check_engine.sh 
+  400  chmod 700 check_engine.sh 
+  401  tree -a
+  402  tree -pa
+  403  ls -l check_engine.sh 
+  404  cd ..
+  405  history 30 > comandos.txt
