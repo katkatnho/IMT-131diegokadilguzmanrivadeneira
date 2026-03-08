@@ -1,0 +1,5 @@
+1. mkdir (para crear carpetas)
+2.cd (Para moverte entre carpetas)
+3.pwd(Para saber donde estas)
+4.mv (Para renombrar o mover)
+5.ls (Para listar archivos)

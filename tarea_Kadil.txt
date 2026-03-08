@@ -1,0 +1,12 @@
+.
+├── apuntes
+│   └── comandos_basicos.txt
+├── proyectos
+│   └── proyecto_linux_1
+│       └── comandos_basicos.txt
+├── readme.txt
+├── scripts
+│   └── notas_clase.txt
+└── tarea_Kadil.txt
+
+5 directories, 5 files

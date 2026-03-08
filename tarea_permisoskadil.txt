@@ -1,0 +1,11 @@
+[drwxrwxr-x]  permisos_linux
+├── [drwxr-xr-x]  compartido
+│   └── [-rw-rw-r--]  publico.txt
+├── [drwx--x---]  documentos
+│   ├── [-r--r--r--]  datos.txt
+│   └── [-rw-r-----]  informe.txt
+├── [-rw-------]  README.txt
+└── [drwxrwxr-x]  scripts
+    └── [-rwxr-x---]  backup.sh
+
+4 directories, 5 files
