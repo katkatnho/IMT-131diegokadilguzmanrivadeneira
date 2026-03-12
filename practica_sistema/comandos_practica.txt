@@ -1,0 +1,139 @@
+  661  ls -la
+  662  ls -la datos/
+  663  grep -s datos/
+  664  find . type f datos/
+  665  find . f datos/
+  666  find . datos/
+  667  find "*.txt"
+  668  find "*.txt" datos/
+  669  find f "*.txt" datos/
+  670  find . "*.txt"
+  671  ls -la datos/
+  672  clear
+  673  ls -la datos/
+  674  find . datos/
+  675  clear
+  676  find . 
+  677  ls -la 
+  678  clear
+  679  ls -la 
+  680  find . datos/
+  681  ls -la datos/
+  682  find . -type f "*.txt"
+  683  find . -type f -name "*.txt"
+  684  find . -type f -name "*.log"
+  685  find . -type f -name "*.log" | wc -c
+  686  find . -type f -name "*.log" | wc -w
+  687  find . -type f -name "*.txt" | wc -w
+  688  touch prueba.txt
+  689  ls
+  690  find . -type f -name "*.txt" | wc -w
+  691  find . -type f -name "*.txt" | wc -l
+  692  find . -type f -name "*.txt" | wc 
+  693  find . -type f -name "*.txt" | wc *.txt
+  694  find . -type f -name "*.txt" | wc "*.txt"
+  695  find . -type f -name "*.txt" | wc -name "*.txt"
+  696  wc --help
+  697  find . -type f -name "*.txt" | wc -l
+  698  rm prueba.txt 
+  699  ls
+  700  find . -type f -name "*.txt" | wc -l
+  701  grep "error" -i datos/accesos.log | wc -l 
+  702  cat datos/accesos.log
+  703  grep "info" -n datos/accesos.log | wc -l 
+  704  cat datos/accesos.log 
+  705  grep "info" -n datos/accesos.log | wc -l
+  706  grep "info" -n datos/accesos.log  
+  707  sort datos/usuarios.txt
+  708  wc -l datos/usuarios.txt 
+  709  grep "error" -n datos/accesos.log  
+  710  grep "error" -n datos/accesos.log | sort datos/accesos.log
+  711  grep "error" datos/accesos.log | sort
+  712  cd ..
+  713  ls
+  714  cd pratica_sistema
+  715  cd practica_sistema
+  716  ls
+  717  clear
+  718  ls
+  719  mkdir reportes/reporte_sistema.txt
+  720  tree
+  721  cat datos/accesos.log
+  722  wc -l datos/usuarios.txt 
+  723  wc -l datos/usuarios.txt > reportes/reporte_sistema.txt
+  724  rm -r reportes/reporte_sistema.txt
+  725  tree
+  726  touch reportes/reporte_sistema.txt
+  727  tree
+  728  wc -l datos/usuarios.txt > reportes/reporte_sistema.txt
+  729  cat reportes/reporte_sistema.txt
+  730  grep "error" datos/accesos.log | wc -l >> reportes/reporte_sistema.txt
+  731  cat reportes/reporte_sistema.txt
+  732  sort datos/usuarios.txt >> reportes/reporte_sistema.txt 
+  733  cat reportes/reporte_sistema.txt
+  734  ls
+  735  touch scripts/analisis.sh
+  736  ls -la
+  737  ls -la scripts/
+  738  chmod +x scripts/analisis.sh 
+  739  ls -la scripts/
+  740  nano scripts/analisis.sh 
+  741  ./analisis.sh
+  742  ls
+  743  scripts./analisis.sh
+  744  cd scripts/
+  745  ls
+  746  .analisis.sh
+  747  ./analisis.sh
+  748  cd ..
+  749  scripts/./analisis.sh
+  750  ls
+  751  touch comandos_practica.txt
+  752  ls
+  753  scripts/analisis.sh
+  754  tree
+  755  scripts/analisis.sh 
+  756  cd scripts/
+  757  ./analisis.sh
+  758  history
+  759  cd ..
+  760  history 100 >> comandos_practica.txt 
+total 28
+drwxrwxr-x  6 kadil kadil 4096 Mar 12 17:30 .
+drwxrwxr-x 11 kadil kadil 4096 Mar 12 16:28 ..
+drwxrwxr-x  2 kadil kadil 4096 Mar 12 16:29 backup
+-rw-rw-r--  1 kadil kadil 2868 Mar 12 17:34 comandos_practica.txt
+drwxrwxr-x  2 kadil kadil 4096 Mar 12 16:31 datos
+drwxrwxr-x  2 kadil kadil 4096 Mar 12 17:21 reportes
+drwxrwxr-x  2 kadil kadil 4096 Mar 12 17:28 scripts
+./reportes/reporte_sistema.txt
+./comandos_practica.txt
+./datos/usuarios.txt
+total 16
+drwxrwxr-x 2 kadil kadil 4096 Mar 12 16:31 .
+drwxrwxr-x 6 kadil kadil 4096 Mar 12 17:30 ..
+-rw-rw-r-- 1 kadil kadil  218 Mar 12 16:34 accesos.log
+-rw-rw-r-- 1 kadil kadil   36 Mar 12 16:30 usuarios.txt
+./reportes/reporte_sistema.txt
+./comandos_practica.txt
+./datos/usuarios.txt
+./datos/accesos.log
+1
+error: contraseña incorrecta juan
+error: usuario no encontrado carlos
+error: contraseña incorrecta ana
+3
+info: login correcto ana
+info: login correcto maria
+info: login correcto lucas
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
+7 datos/usuarios.txt
+error: contraseña incorrecta ana
+error: contraseña incorrecta juan
+error: usuario no encontrado carlos
