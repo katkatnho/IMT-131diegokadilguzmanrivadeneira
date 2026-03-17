@@ -1,0 +1,18 @@
+error: memoria llena
+error: archivo no encontrado
+info: proceso iniciado
+info: proceso terminado
+6 datos/nombres.txt
+2
+ana
+ana
+juan
+juan
+maria
+pedro
+./resultado_practica4.txt
+./datos/log.txt
+./datos/nombres.txt
+3
+error: archivo no encontrado
+error: memoria llena
